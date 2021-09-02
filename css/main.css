@@ -13,7 +13,7 @@ nav ul li {
   position: relative;
   width: 30%;
   min-width: 280px;
-  margin: 0 12px 12px 0;
+  margin: 0 12px 32px 0;
   height: 40vw;
   min-height: 280px;
   background-color: white;
@@ -31,7 +31,7 @@ nav ul li a {
   z-index: 1;
   bottom: 12px;
   right: 12px;
-  background-color: #ffa00044;
+  background-color: #fff000aa;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   color: #444444;
@@ -43,6 +43,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: #af80f0;
+  color: white;
   transition: all 0.4s ease-in-out;
 }
 #app > div {
