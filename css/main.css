@@ -12,9 +12,9 @@ nav ul li {
   display: inline-block;
   position: relative;
   width: 30%;
-  min-width: 280px;
+  min-width: 300px;
   margin: 0 12px 32px 0;
-  height: 40vw;
+  height: 30vw;
   min-height: 280px;
   background-color: white;
   overflow: hidden;
