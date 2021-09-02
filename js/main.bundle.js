@@ -1,0 +1,2 @@
+(()=>{var n,i;window.addEventListener("DOMContentLoaded",t=>{o()});function o(){n=document.getElementById("app"),i=[...document.querySelectorAll("header ul li a")],i.map(t=>{t.addEventListener("click",c)})}function c(t){t&&t.preventDefault();let e=this.getAttribute("texto");n.style.opacity=0,setTimeout(()=>{l(e)},1e3)}function l(t){fetch(t).then(e=>e.text()).then(e=>{a(e)}).catch(e=>{n.innerHTML=`<i>no se encuentra el archivo ${t}</i>`,n.style.opacity=1})}function a(t){let e=t.split(`
+`).join("<br/>");n.innerHTML=`<div>${e}</div>`,n.style.opacity=1}})();
