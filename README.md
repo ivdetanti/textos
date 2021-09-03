@@ -28,86 +28,79 @@ Título de la entrada
 es el título que aparece en el botón y también cuando se muestra el texto
 
 
- <li> 
-          <img src='ARCHIVO_DE_IMAGEN.jpg'>
-          <a texto='ARCHIVO_DE_TEXTO.txt'>TITULO DEL TEXTO</a>
+        <li> 
+         <img src='ARCHIVO_DE_IMAGEN.jpg'>
+         <a texto='ARCHIVO_DE_TEXTO.txt'>TITULO DEL TEXTO</a>
         </li>
+         
         
-        
-        
-        
-    Pasos para agregar una nueva entrada
+        Pasos para agregar una nueva entrada
     
     
-      Se puede empezar subiendo la imagen que se vaya a usar 
+       Se puede empezar subiendo la imagen que se vaya a usar 
       
-   1 Hay que subir la imagen a la carpeta img en github
+   1.   Hay que subir la imagen a la carpeta img en github
    para esto ir a https://github.com/ivdetanti/textos/tree/main/img
    
-   2 ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
+   2.   ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
    
-   3 seguir los pasos para subir la imagen. ( tratar de que la imagen no sea demasiado grande ni 
+   3.   seguir los pasos para subir la imagen. ( tratar de que la imagen no sea demasiado grande ni 
      demasiado chica, mas o menos del tamaño que se ven en la pantalla, tiene que ser de formato .jpg o .png )
       
-   4. apretar "commit changes" abajo, (guardar)
+   4.   apretar "commit changes" abajo, (guardar)
 
-   5 fijarse en el nombre del archivo de imagen, es el nombre que hay que usar al agregarlo a la entrada en los pasos siguientes
+   5.   fijarse en el nombre del archivo de imagen, es el nombre que hay que usar al agregarlo a la entrada en los pasos siguientes
     
    
     Ahora creamos el texto
     
-    1 ir a https://github.com/ivdetanti/textos
-    
-    2 ir a "add files" (arriba a la derecha) y seleccionar "create new file" ( ver más adelante la opción "upload files" )
-    
-    3 Arriba a la izquierda, poner nombre al nuevo archivo por ejemplo "mitexto.txt".  (usar .txt)
-    
-    4  escribir el texto, o pegarlo 
-    
-    5 abajo de todo, apretar "commit changes"  ( equivale a "guardar cambios" )
     
     
-    6  ir a https://github.com/ivdetanti/textos
+    1.   ir a https://github.com/ivdetanti/textos
     
-    7 abrir index.html
+    2.   ir a "add files" (arriba a la derecha) y seleccionar "create new file" ( ver más adelante la opción "upload files" )
     
-    8 apretar "edit file" ( el ícono de lapiz arriba a la derecha )
+    3.   Arriba a la izquierda, poner nombre al nuevo archivo por ejemplo "mitexto.txt".  (usar .txt)
     
-    9 buscar la línea que dice: 
+    4.   escribir el texto, o pegarlo 
     
-        <!--  agregar acá otros <li>...</li> -->
+    5.   abajo de todo, apretar "commit changes"  ( equivale a "guardar cambios" )
     
-    agregar arriba de ella: 
+    6.   ir a https://github.com/ivdetanti/textos
     
+    7.   abrir index.html
+    
+    8.   apretar "edit file" ( el ícono de lapiz arriba a la derecha )
+    
+    9.   buscar la línea que dice:  <!--  agregar acá otros <li>...</li> -->
+    
+    10.   agregar arriba de ella: 
+        
          <li> 
           <img src='img/imagen.jpg'>
           <a texto='nombre.txt'>título</a>
         </li>
       
-           ( usando el nombre del archivo de imagen, el título del texto y el archivo txt que hayas creado )
+    11.   esto último usando el nombre del archivo de imagen, el título del texto y el archivo txt que hayas creado
            
- 
-   10 apretar "commit changes"  para guardar index.html
+    12.   apretar "commit changes"  para guardar index.html
    
    
    
 Subir archivos
-   
-   En vez de editar los archivos de texto y el index.html online, se pueden editar en la máquina y luego subirlos a github
-   
-   Para subir un archivo:
-    
-        1  ir a https://github.com/ivdetanti/textos
+En vez de editar los archivos de texto y el index.html online, se pueden editar en la máquina y luego subirlos a github
+
+Para subir un archivo:
+
+1.      ir a https://github.com/ivdetanti/textos
       
-         si el archivo va a una carpeta determinada, seleccionarla
-         
-         
-         
-   2 ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
+2.      si el archivo va a una carpeta determinada, seleccionarla3 ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
    
-   3 seguir los pasos para subir el archivo
+3.      seguir los pasos para subir el archivo
    
-   4 apretar "commit changes"
+4.      apretar "commit changes"
+
+ 
    
    
         
