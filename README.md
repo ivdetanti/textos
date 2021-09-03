@@ -1,8 +1,8 @@
-para actualizar el sitio
+Para actualizar el sitio
 
-se pueden agregar textos
+Se pueden agregar textos, cada uno tiene un archivo de texto, una imagen y un título.
 
-en index.html cada texto se ve como:
+En index.html cada texto se ve como:
 
         <li> 
           <img src='img/1.jpg'>
@@ -50,13 +50,14 @@ texto. ( archivo txt )
           <a texto='nombre.txt'>título</a>
         </li>
       
-      usando el título del texto y el archivo txt creado
-      
-    10 apretar "commit changes"  
+           ( usando el título del texto y el archivo txt creado )
+           
+           
+   10 apretar "commit changes"  
       
         
-        11 subir la imagen a la carpeta img
-           ir a 
+   11 subir la imagen a la carpeta img
+           
            
         
         
