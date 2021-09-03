@@ -1,22 +1,34 @@
-Para actualizar el sitio
+Para actualizar el sitio de textos
 
-Se pueden agregar textos, cada uno tiene un archivo de texto, una imagen y un título.
+
+
+
+Se pueden agregar entradas 
+textos o artículos
+
+Cada una de las entradas tiene:
+un archivo de texto, 
+una imagen 
+y un título.
 
 En index.html cada texto se ve como:
 
         <li> 
-          <img src='img/1.jpg'>
-          <a texto='agamben.txt'>Gusto de Agamben</a>
+          <img src='archivodeimagen.jpg'>
+          <a texto='archivodetexto.txt'>Título de la entrada</a>
         </li>
 
-Ahi se ve como es la sintaxis para incorporar
+archivodeimagen.jpg 
+sería el archivo de imagen, que hay que subir a github (ver más adelante)
 
-imagen
-título
-texto. ( archivo txt )
+archivodetexto.txt
+sería un archivo .txt con el contenido de texto. (puede incluir html, ver más adelante)
+
+Título de la entrada
+es el título que aparece en el botón y también cuando se muestra el texto
 
 
-        <li> 
+ <li> 
           <img src='ARCHIVO_DE_IMAGEN.jpg'>
           <a texto='ARCHIVO_DE_TEXTO.txt'>TITULO DEL TEXTO</a>
         </li>
@@ -24,39 +36,82 @@ texto. ( archivo txt )
         
         
         
-    Pasos para agregar un texto:
+    Pasos para agregar una nueva:
+    
+    
+      AGREGAR IMAGEN A LA ENTRADA:
+        
+   1 Hay que subir la imagen a la carpeta img en github
+   para esto ir a https://github.com/ivdetanti/textos/tree/main/img
+   
+   2 ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
+   
+   3 seguir los pasos para subir la imagen. ( tratar de que la imagen no sea demasiado grande ni 
+     demasiado chica, mas o menos del tamaño que se ven en la pantalla, tiene que ser de formato .jpg o .png )
+      
+   4. apretar "commit changes" abajo, (guardar)
+
+   5 fijarse en el nombre del archivo de imagen, es el nombre que hay que usar al agregarlo a la entrada en los pasos siguientes
+    
+   
+       CREAR EL ARCHIVO CON EL TEXTO
     
     1 ir a https://github.com/ivdetanti/textos
     
-    2 ir a "new file"
+    2 ir a "add files" (arriba a la derecha) y seleccionar "create new file" ( ver más adelante la opción "upload files" )
     
-    3 poner nombre al nuevo archivo por ejemplo "mitexto.txt".  (usar .txt)
+    3 Arriba a la izquierda, poner nombre al nuevo archivo por ejemplo "mitexto.txt".  (usar .txt)
     
-    4 allí se puede escribir el texto, o pegarlo
+    4  escribir el texto, o pegarlo 
     
-    5 apretar "commit changes"  ( guardar )
+    5 abajo de todo, apretar "commit changes"  ( equivale a "guardar cambios" )
     
     
     6  ir a https://github.com/ivdetanti/textos
     
     7 abrir index.html
     
-    8 apretar "edit file" ( el ícono de lapiz )
+    8 apretar "edit file" ( el ícono de lapiz arriba a la derecha )
     
-    9 agregar a la lista: 
+    9 buscar la línea que dice: 
+    
+        <!--  agregar acá otros <li>...</li> -->
+    
+    agregar arriba de ella: 
     
          <li> 
           <img src='img/imagen.jpg'>
           <a texto='nombre.txt'>título</a>
         </li>
       
-           ( usando el título del texto y el archivo txt creado )
+           ( usando el nombre del archivo de imagen, el título del texto y el archivo txt que hayas creado )
            
-           
-   10 apretar "commit changes"  
+ 
+   10 apretar "commit changes"  para guardar index.html
+   
+   
+   
+   UPLOAD FILES
+   
+   En vez de editar los archivos de texto y el index.html online, se pueden editar en la máquina y luego subirlos a github
+   
+   Para subir un archivo:
+    
+        1  ir a https://github.com/ivdetanti/textos
       
+         si el archivo va a una carpeta determinada, seleccionarla
+         
+         
+         
+   2 ir a "add files" (arriba a la derecha) y seleccionar  "upload files" 
+   
+   3 seguir los pasos para subir el archivo
+   
+   4 apretar "commit changes"
+   
+   
         
-   11 subir la imagen a la carpeta img
+   
            
            
         
