@@ -36,11 +36,11 @@ es el título que aparece en el botón y también cuando se muestra el texto
         
         
         
-    Pasos para agregar una nueva:
+    Pasos para agregar una nueva entrada
     
     
-      AGREGAR IMAGEN A LA ENTRADA:
-        
+      Se puede empezar subiendo la imagen que se vaya a usar 
+      
    1 Hay que subir la imagen a la carpeta img en github
    para esto ir a https://github.com/ivdetanti/textos/tree/main/img
    
@@ -54,7 +54,7 @@ es el título que aparece en el botón y también cuando se muestra el texto
    5 fijarse en el nombre del archivo de imagen, es el nombre que hay que usar al agregarlo a la entrada en los pasos siguientes
     
    
-       CREAR EL ARCHIVO CON EL TEXTO
+    Ahora creamos el texto
     
     1 ir a https://github.com/ivdetanti/textos
     
@@ -91,7 +91,7 @@ es el título que aparece en el botón y también cuando se muestra el texto
    
    
    
-   UPLOAD FILES
+Subir archivos
    
    En vez de editar los archivos de texto y el index.html online, se pueden editar en la máquina y luego subirlos a github
    
