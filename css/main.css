@@ -11,6 +11,21 @@ body {
   -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
 }
+.img-look-inv {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 32px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+}
+.page-top {
+  font-size: 10px;
+  color: #777777;
+  letter-spacing: 3px;
+  text-align: right;
+  padding: 0 0px 12px;
+}
 .page-title {
   background-color: #777777;
   color: #88ff00;
@@ -22,8 +37,10 @@ body {
   padding: 16px;
   text-align: right;
   margin: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 32px;
   -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
 }
