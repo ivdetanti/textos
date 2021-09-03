@@ -3,11 +3,27 @@ body {
   background-color: #f3f3f3;
   color: #222222;
   font-family: sans-serif;
+  transition: background 0.9s ease-in;
 }
-nav ul {
+.img-look {
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+}
+header nav {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+header nav.hidded {
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+header nav ul {
   list-style: none;
 }
-nav ul li {
+header nav ul li {
   list-style: none;
   display: inline-block;
   position: relative;
@@ -17,25 +33,31 @@ nav ul li {
   min-height: 280px;
   background-color: white;
   overflow: hidden;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
 }
 @media (max-width: 768px) {
-  nav ul li {
+  header nav ul li {
     width: 96%;
     margin: 0 auto 32px auto;
     height: 61vw;
     min-height: 280px;
   }
 }
-nav ul li img {
+header nav ul li img {
   position: absolute;
   object-fit: contain;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-nav ul li a {
+header nav ul li a {
   position: absolute;
   z-index: 1;
+  cursor: pointer;
   bottom: 12px;
   right: 12px;
   background-color: #88ff00d9;
@@ -48,7 +70,7 @@ nav ul li a {
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-nav ul li a:hover {
+header nav ul li a:hover {
   background-color: #af80f0;
   color: white;
   transition: all 0.4s ease-in-out;
@@ -56,11 +78,31 @@ nav ul li a:hover {
 #app > div {
   padding: 36px;
   transition: opacity 1s ease-in;
+  color: #eeffee;
+  font-size: 16px;
+}
+h3 {
+  font-weight: 400;
+  color: #eeffdd;
 }
 .back {
   display: none;
+  cursor: pointer;
+  border-radius: 16px;
+  opacity: 0.7;
+  width: auto;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  padding: 0;
+  transition: opacity 0.7s;
+}
+.back:hover {
+  opacity: 1;
+  transition: opacity 0.7s;
 }
 .back img {
   width: 220px !important;
-  cursor: pointer;
 }
