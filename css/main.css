@@ -57,3 +57,10 @@ nav ul li a:hover {
   padding: 36px;
   transition: opacity 1s ease-in;
 }
+.back {
+  display: none;
+}
+.back img {
+  width: 220px !important;
+  cursor: pointer;
+}
