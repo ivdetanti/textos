@@ -12,12 +12,19 @@ nav ul li {
   display: inline-block;
   position: relative;
   width: 30%;
-  min-width: 300px;
   margin: 0 12px 32px 0;
-  height: 30vw;
+  height: 26vw;
   min-height: 280px;
   background-color: white;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  nav ul li {
+    width: 96%;
+    margin: 0 auto 32px auto;
+    height: 61vw;
+    min-height: 280px;
+  }
 }
 nav ul li img {
   position: absolute;
