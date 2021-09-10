@@ -5,6 +5,14 @@ body {
   font-family: sans-serif;
   transition: background 0.9s ease-in;
 }
+.back-link {
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.back-link:hover {
+  color: #00c3ff;
+  transition: color 0.5s;
+}
 .img-look {
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
