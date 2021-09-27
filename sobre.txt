@@ -2,7 +2,7 @@ Texto sobre...
 
 
 <h2>video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nuBEy5h6yhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:90vw;height:90vh;" src="https://www.youtube.com/embed/nuBEy5h6yhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ... más...
