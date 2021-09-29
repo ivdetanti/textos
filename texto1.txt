@@ -4,6 +4,6 @@ parrafo
 </p>
 
 
-<b> negrita </b>
+bla bla <b> negrita </b> y <i> cusiva!!! </i>
 
 
