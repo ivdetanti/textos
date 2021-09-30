@@ -1,6 +1,7 @@
 Para actualizar el sitio de textos
 
- 
+Formatos básicos para los archivos .txt
+
 negrita
          
          <b> 
