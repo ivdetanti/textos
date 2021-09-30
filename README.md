@@ -2,14 +2,23 @@ Para actualizar el sitio de textos
 
  
 negrita
-<b> negrita </b>
+         
+         <b> 
+         negrita 
+         </b>
 
 parrafo
  
-<p> kjhkhjkhkh<> </p>
+         <p> 
+         kjhkhjkhkh<> 
+         </p>
  
  Cursiva
- <i> italica </i>
+       
+       
+        <i> 
+        italica 
+        </i>
 
 Se pueden agregar entradas 
 textos o artículos
